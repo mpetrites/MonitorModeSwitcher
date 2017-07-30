@@ -1,0 +1,40 @@
+﻿<Window x:Class="MonitorModeSwitcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonitorModeSwitcher"
+        mc:Ignorable="d"
+        SizeToContent="WidthAndHeight"
+        Title="Monitor Mode" Height="Auto" Width="Auto" d:DesignWidth="458.196" d:DesignHeight="78.137">
+    <StackPanel Orientation="Horizontal" Width="Auto" Margin="0">
+        <Button Height="Auto" Width="Auto" Margin="5" Click="All_Enabled">
+            <Button.Content>
+                <TextBlock TextWrapping="Wrap">
+                Enable All Monitors
+                </TextBlock>
+            </Button.Content>
+        </Button>
+        <Button Height="Auto" Width="Auto" Margin="5" Click="Desktop_Mode">
+            <Button.Content>
+                <TextBlock TextWrapping="Wrap">
+                Desktop Mode
+                </TextBlock>
+            </Button.Content>
+        </Button>
+        <Button Height="Auto" Width="Auto" Margin="5">
+            <Button.Content>
+                <TextBlock TextWrapping="Wrap">
+                Desktop Game Mode
+                </TextBlock>
+            </Button.Content>
+        </Button>
+        <Button Height="Auto" Width="Auto" Margin="5">
+            <Button.Content>
+                <TextBlock TextWrapping="Wrap">
+                Comfy Game Mode
+                </TextBlock>
+            </Button.Content>
+        </Button>
+    </StackPanel>
+</Window>
